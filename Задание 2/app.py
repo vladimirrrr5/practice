@@ -1,4 +1,3 @@
-#12314123
 from flask import Flask, jsonify
 import math
 
@@ -10,4 +9,4 @@ def gcd(a, b):
     return jsonify({"number1": a, "number2": b, "gcd": result})
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000)
+    app.run(host='0.0.0.0', port=100)
